@@ -218,3 +218,24 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+
+# ==========================================
+# Project-Specific Datasets & Model Files
+# ==========================================
+*.csv
+fashion-mnist_train.csv
+fashion-mnist_test.csv
+
+# Model weights and checkpoints
+*.pt
+*.pth
+best_model/
+best_model.pt
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+
